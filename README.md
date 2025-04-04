@@ -6,7 +6,10 @@ This project explains how to launch a microservice on Google Cloud Platform (GCP
 •	Install and configure Google Cloud SDK in the system
 •	Install and configure Docker in the system
 •	Install Google Cloud Platform Project with billing enabled
-3.	Setting up and Configuration
+
+####
+4.	Setting up and Configuration
+#####
 •	Use the command gcloud init to initialize the Google cloud CLI
 •	gcloud auth configure-docker australia-southeast1-docker.pkg.dev command is used to configure the authentication of docker for Google Artifact Registry
 •	Next, we need to clone the repository using git clone <repository_name>. Here, the repository name is SIT737-2025-prac5p. Navigate to the repository using the command cd SIT737-2025-prac5p.
