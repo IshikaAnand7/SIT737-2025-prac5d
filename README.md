@@ -22,5 +22,7 @@ This project explains how to launch a microservice on Google Cloud Platform (GCP
 •	To build the docker image, we use the command docker build -t myapp .
 ####
 •	‘docker tag myapp australia-southeast1-docker.pkg.dev/sit737-25t1-anand-b26c383/sit737ishi/myapp:latest’  command is used for tagging the image to google artifact registry.
+####
 •	‘docker push australia-southeast1-docker.pkg.dev/sit737-25t1-anand-b26c383/sit737ishi/myapp:latest’  command is used for pushing the image to google artifact registry.
+####
 •	‘docker run -d -p 8081:3000 gcr.io/sit737-25t1- anand-b26c383/myapp:latest’ command is used to check that it can boot the microservice from published container.	
